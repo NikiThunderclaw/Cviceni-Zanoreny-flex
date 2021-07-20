@@ -15,3 +15,20 @@ body {
 
 /* ------------- pod čáru přijdou tvé styly ------------- */
 
+.kontejner {
+	display: flex;
+}
+
+.sloupec {
+	flex-direction: column;
+	width: 50%;
+}
+
+.levy {
+	width: 50%;
+}
+
+.horni,
+.dolni {
+	height: 50%;
+}
