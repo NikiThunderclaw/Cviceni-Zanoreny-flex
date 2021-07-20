@@ -19,16 +19,15 @@ body {
 	display: flex;
 }
 
-.sloupec {
+.pravy {
 	flex-direction: column;
-	width: 50%;
-}
-
-.levy {
-	width: 50%;
+	flex-basis: 50%;
+	display: flex;
 }
 
 .horni,
-.dolni {
-	height: 50%;
+.dolni,
+.levy,
+.pravy{
+	flex-basis: 50%;
 }
